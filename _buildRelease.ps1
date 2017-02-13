@@ -1,0 +1,1 @@
+.\build.ps1 -Configuration Release -Package Source\Machine.Specifications
