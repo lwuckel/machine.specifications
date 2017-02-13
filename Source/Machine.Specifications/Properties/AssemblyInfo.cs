@@ -12,7 +12,7 @@ using System.Security;
 [assembly : AssemblyConfiguration("")]
 [assembly : AssemblyCulture("")]
 
-[assembly: AssemblyVersion("0.9.3.0")]
+[assembly: AssemblyVersion("0.11.0.0")]
 [assembly: AssemblyInformationalVersion("1.0.*")]
 
 // Setting ComVisible to false makes the types in this assembly not visible

@@ -1,11 +1,13 @@
 {
-    "version": "0.10.0-unstable-*",
+    "version": "0.11.0-signed",
     "configurations": {
         "Release": {
             "buildOptions": {
                 "define": [
                     "CLEAN_EXCEPTION_STACK_TRACE"
-                ]
+                ],
+				"keyFile": "../Machine.snk"
+				
             }
         }
     },

@@ -7,7 +7,8 @@
         "define": [
             "DEBUG",
             "TRACE"
-        ]
+        ],
+		"keyFile": "../../Machine.snk"
     },
     "testRunner": "mspec",
     "frameworks": {

@@ -7,7 +7,8 @@
         "define": [
             "DEBUG", // needed for Trace*/Debug.* tests
             "TRACE"// needed for Trace*/Debug.* tests
-        ]
+        ],
+		"keyFile": "../Machine.snk"
     },
     "configurations": {
         "Release": {

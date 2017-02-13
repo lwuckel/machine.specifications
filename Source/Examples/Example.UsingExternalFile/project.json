@@ -10,7 +10,8 @@
         ],
         "copyToOutput": [
             "TestData.txt"
-        ]
+        ],
+		"keyFile": "../../Machine.snk"
     },
     "testRunner": "mspec",
     "frameworks": {
