@@ -6,7 +6,13 @@
     <NoWarn>$(NoWarn);169</NoWarn>
     <AssemblyName>Machine.Specifications.Specs</AssemblyName>
     <PackageId>Machine.Specifications.Specs</PackageId>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>C:\Development\Mspec\machine.specifications\Source\Machine.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Machine.snk" Link="Machine.snk" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Machine.Specifications\Machine.Specifications.csproj" />
